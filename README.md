@@ -1,16 +1,26 @@
-# demo_app
+# time_buddy
 
-A new Flutter project.
+A simple App to sync different time zones hassle-free.
 
-## Getting Started
+Just tap the Add button to add a city/country in the dialog box.
 
-This project is a starting point for a Flutter application.
+We will fetch the timezone for you.
 
-A few resources to get you started if this is your first Flutter project:
+You can add one more location to compare the timezones. You can add upto 4 locations.
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+This App can be used by teams working together from different parts of the world to schedule a call/meeting which suits everyone.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+You can use it simply to track the release of your favorite smartphone, or even for the release of the latest episode.
+
+Enjoy!
+
+#Instructions
+
+Make sure you have a working flutter environment and an emulator/device connected.
+
+Go to the source directory and run the command:
+
+"flutter run --release" for devices.
+"flutter run" for emulators.
+
+

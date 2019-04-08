@@ -1,4 +1,4 @@
-package com.example.demo_app;
+package com.example.time_buddy;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
