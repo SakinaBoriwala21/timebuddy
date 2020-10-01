@@ -122,7 +122,16 @@ class _MyAppState extends State<MyApp> {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20)))),
       home: Scaffold(
-        appBar: AppBar(title: Text('Time Buddy')),
+        backgroundColor: Colors.blueGrey[900],
+        appBar: AppBar(title: Text('Time Buddy',
+        
+        style: TextStyle(
+          fontSize: 20,
+          color: Colors.white,
+        ),
+        ),
+        backgroundColor: Colors.black,
+        ),
         body: Stack(children: <Widget>[
           _timeZoneUsingListView(),
           Column(children: _cityInfo()),
@@ -148,8 +157,8 @@ class _MyAppState extends State<MyApp> {
               });
             }
           },
-          child: Icon(Icons.add, color: Colors.blue),
-          backgroundColor: Colors.white,
+          child: Icon(Icons.add, color: Colors.white),
+          backgroundColor: Colors.black,
         ),
       ),
     );
